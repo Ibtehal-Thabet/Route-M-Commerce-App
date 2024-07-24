@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="brand"
+            type="com.example.domain.model.Brand" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/home_brand_layout"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_margin="4dp"
+        android:background="@color/gray"
+        android:elevation="12dp">
+
+        <ImageView
+            android:id="@+id/brand_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:shadowColor="@color/primary_color"
+            app:url="@{brand.image}"
+            app:placeholder="@{@drawable/icon_cart}"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:src="@tools:sample/avatars"
+            />
+
+<!--        <TextView-->
+<!--            android:id="@+id/brand_name"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@{brand.name}"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="12sp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:background="@drawable/under_image_shape"-->
+<!--            app:layout_constraintBottom_toBottomOf="@id/brand_img"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/brand_img"-->
+<!--            tools:text="Defacto"-->
+<!--            />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

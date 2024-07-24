@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">M-Commerce App</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="create_account">Create Account</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Full Name</string>
+    <string name="have_an_account">Have An Account?</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="fillInfo">Please fill your information below</string>
+    <string name="home">Home</string>
+    <string name="cart">Cart</string>
+    <string name="fav">Wish List</string>
+    <string name="profile">Profile</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="egp">EGP</string>
+    <string name="brands">Brands</string>
+    <string name="welcome">Welcome</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="edit">Edit</string>
+    <string name="password_confirmation">Password Confirmation</string>
+    <string name="check_out">Check Out</string>
+    <string name="total_price">Total Price</string>
+    <string name="continue_shopping">Continue Shopping!</string>
+    <string name="search">Search</string>
+    <string name="try_again">Try Again!</string>
+    <string name="cancel">cancel</string>
+    <string name="change_password">Change Password</string>
+    <string name="update_address">Update Address</string>
+    <string name="logout">Logout</string>
+
+</resources>
