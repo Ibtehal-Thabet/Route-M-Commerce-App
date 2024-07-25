@@ -2,11 +2,13 @@
  - Kotlin
  - MVI Architecture Pattern
  - Data Binding
+ - Glide
  - Clean Architecture
  - Dagger (Hilt)
  - Retrofit
  - Kotlin Coroutines
- - Kotlin Flows 
+ - Kotlin Flows
+ - Live Data
 
 # Perview:
 
